@@ -20,6 +20,10 @@ export default function QuizClient({ test }: Props) {
     const [error, setError] = useState("");
     const [result, setResult] = useState<Result | null>(null);
 
+    // ✅ prevent duplicate clicks/submits
+    const [isSubmitting, setIsSubmitting] = useState(false); // Jo‘natish lock
+    const [isFinalizing, setIsFinalizing] = useState(false); // Davom etish lock (telegram)
+
     // ✅ User info modal
     const [showUserModal, setShowUserModal] = useState(false);
     const [firstName, setFirstName] = useState("");
@@ -50,27 +54,34 @@ export default function QuizClient({ test }: Props) {
         setAnswers((prev) => ({ ...prev, [question.id]: option }));
     }
 
-    // ✅ On submit-result (last question) → open modal first
+    // ✅ On Jo‘natish (last question) → open modal (LOCKED to prevent multi-click)
     function handleSubmit() {
+        if (isSubmitting) return;
+
         if (Object.keys(answers).length < total) {
             setError("❗ Iltimos, barcha savollarga javob bering.");
             return;
         }
 
+        setIsSubmitting(true); // 🔒 lock immediately
         setError("");
         setUserError("");
         setShowUserModal(true);
     }
 
-    // ✅ Finalize after user enters Ism/Familiya
+    // ✅ Finalize after user enters Ism/Familiya (LOCKED to prevent duplicate Telegram)
     async function finalizeResult() {
+        if (isFinalizing) return;
+
         if (!firstName.trim() || !lastName.trim()) {
             setUserError("❗ Iltimos, ism va familiyani to‘liq kiriting.");
             return;
         }
 
-        let correct = 0;
+        setIsFinalizing(true); // 🔒 lock telegram send
+        setUserError("");
 
+        let correct = 0;
         for (const q of test.questions) {
             const user = answers[q.id];
             const correctAns = answerKey[String(q.id)];
@@ -101,7 +112,6 @@ export default function QuizClient({ test }: Props) {
         setShowUserModal(false);
         setResult({ correct, total, percent });
     }
-
 
     // RESULT SCREEN
     if (result) {
@@ -146,6 +156,10 @@ export default function QuizClient({ test }: Props) {
                                     setFirstName("");
                                     setLastName("");
 
+                                    // reset locks
+                                    setIsSubmitting(false);
+                                    setIsFinalizing(false);
+
                                     // go home
                                     window.location.href = "/";
                                 }}
@@ -184,12 +198,13 @@ export default function QuizClient({ test }: Props) {
                 <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
                     <div
                         className="absolute inset-0 bg-black/40"
-                        onClick={() => setShowUserModal(false)}
+                        // prevent closing while sending (optional safety)
+                        onClick={() => {
+                            if (!isFinalizing) setShowUserModal(false);
+                        }}
                     />
                     <div className="relative w-full max-w-md rounded-2xl bg-white p-6 shadow-lg">
-                        <h2 className="text-lg font-semibold text-black">
-                            Ma’lumot kiriting
-                        </h2>
+                        <h2 className="text-lg font-semibold text-black">Ma’lumot kiriting</h2>
                         <p className="mt-1 text-sm text-gray-600">
                             Natijani ko‘rsatish uchun ism va familiya kerak.
                         </p>
@@ -217,15 +232,24 @@ export default function QuizClient({ test }: Props) {
                             <div className="mt-2 flex gap-2">
                                 <button
                                     onClick={() => setShowUserModal(false)}
-                                    className="w-1/2 rounded-xl border px-4 py-3 text-sm text-black"
+                                    disabled={isFinalizing}
+                                    className={`w-1/2 rounded-xl border px-4 py-3 text-sm text-black ${
+                                        isFinalizing ? "opacity-50 cursor-not-allowed" : ""
+                                    }`}
                                 >
                                     Bekor qilish
                                 </button>
+
                                 <button
                                     onClick={finalizeResult}
-                                    className="w-1/2 rounded-xl bg-blue-600 px-4 py-3 text-sm font-medium text-white hover:bg-blue-700"
+                                    disabled={isFinalizing}
+                                    className={`w-1/2 rounded-xl px-4 py-3 text-sm font-medium text-white ${
+                                        isFinalizing
+                                            ? "bg-blue-300 cursor-not-allowed"
+                                            : "bg-blue-600 hover:bg-blue-700"
+                                    }`}
                                 >
-                                    Davom etish
+                                    {isFinalizing ? "Yuborilmoqda..." : "Davom etish"}
                                 </button>
                             </div>
                         </div>
@@ -240,9 +264,7 @@ export default function QuizClient({ test }: Props) {
                 </p>
 
                 <div className="mt-4 rounded-2xl border p-5">
-                    <div className="text-base font-medium text-black">
-                        {question.prompt}
-                    </div>
+                    <div className="text-base font-medium text-black">{question.prompt}</div>
 
                     <div className="mt-4 space-y-3">
                         {(["A", "B", "C", "D"] as const).map((key) => {
@@ -290,9 +312,15 @@ export default function QuizClient({ test }: Props) {
                     {currentIndex === total - 1 ? (
                         <button
                             onClick={handleSubmit}
-                            className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white hover:bg-blue-700 active:scale-[0.98]"
+                            disabled={isSubmitting}
+                            className={`rounded-lg px-5 py-2 text-sm font-medium text-white active:scale-[0.98]
+                ${
+                                isSubmitting
+                                    ? "bg-blue-300 cursor-not-allowed"
+                                    : "bg-blue-600 hover:bg-blue-700"
+                            }`}
                         >
-                            Jo‘natish
+                            {isSubmitting ? "Yuborilmoqda..." : "Jo‘natish"}
                         </button>
                     ) : (
                         <button
