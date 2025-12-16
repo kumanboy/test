@@ -276,15 +276,15 @@ export default function QuizClient({ test }: Props) {
                                     onClick={() => selectOption(key)}
                                     disabled={secondsLeft <= 0}
                                     className={`w-full rounded-xl border px-4 py-3 text-left transition
-                    ${
+    ${
                                         selected
-                                            ? "border-blue-600 bg-blue-50"
-                                            : "border-gray-300 hover:bg-gray-50"
+                                            ? "border-blue-600 bg-blue-50 text-black"
+                                            : "border-gray-300 bg-white text-black hover:bg-gray-50"
                                     }
-                    ${secondsLeft <= 0 ? "opacity-50 cursor-not-allowed" : ""}
-                  `}
+    ${secondsLeft <= 0 ? "cursor-not-allowed bg-gray-100 text-gray-500" : ""}
+  `}
                                 >
-                                    <span className="mr-2 font-semibold">{key})</span>
+                                <span className="mr-2 font-semibold">{key})</span>
                                     {question.options[key]}
                                 </button>
                             );
@@ -304,7 +304,11 @@ export default function QuizClient({ test }: Props) {
                     <button
                         disabled={currentIndex === 0}
                         onClick={() => setCurrentIndex((i) => i - 1)}
-                        className="rounded-lg border px-4 py-2 text-sm disabled:opacity-50"
+                        className="rounded-lg border px-4 py-2 text-sm
+               text-black bg-white
+               hover:bg-gray-50
+               disabled:text-gray-400 disabled:border-gray-300
+               disabled:cursor-not-allowed"
                     >
                         ← Oldingi
                     </button>
