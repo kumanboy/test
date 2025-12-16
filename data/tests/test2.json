@@ -1,0 +1,196 @@
+{
+  "id": "test2",
+  "title": "IMLO (1-savol tipi)",
+  "durationMinutes": 20,
+  "questions": [
+    {
+      "id": 1,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "taajjub, tassurot, tasarruf",
+        "B": "muvaqqat, tanazzul, muassasa",
+        "C": "hayvonot, loqayd, muvvafaq",
+        "D": "tasodifan, nopisant, ijozat"
+      }
+    },
+    {
+      "id": 2,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "namoyonda, zabardast, har vaqt",
+        "B": "tarovat, muxtaram, nogahon",
+        "C": "nadomat, muharrir, tamaddi",
+        "D": "namoyon, muvofiq, kompazitor"
+      }
+    },
+    {
+      "id": 3,
+      "prompt": "Qaysi javobdagi barcha so‘zlarda imloviy xatolikka yo‘l qo‘yilgan?",
+      "options": {
+        "A": "och sariq, mujassam, muazzam",
+        "B": "rango rang, kiberxafv, gineral",
+        "C": "mutasaddi, avto yo’l, jimjit",
+        "D": "mutaxxasis, akkaunt, nafosat"
+      }
+    },
+    {
+      "id": 4,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "muddaris, tashvishmand, satira",
+        "B": "muvozanat, vaqt-bevaqt, multilova",
+        "C": "mansabparast, rang ro’y, muhofaza",
+        "D": "rangtasvir, nopisand, tim qora"
+      }
+    },
+    {
+      "id": 5,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "avtoulov, qizil rang, hazmi taom",
+        "B": "gavjum, hamaslak, mutanosib",
+        "C": "gina-kudrat, darbadar, kinoteatr",
+        "D": "virtual, bir tikis, qoqi o't"
+      }
+    },
+    {
+      "id": 6,
+      "prompt": "Qaysi javobdagi barcha so‘zlarda imloviy xatolikka yo‘l qo‘yilgan?",
+      "options": {
+        "A": "har zamon, tafakkur, yovoyi",
+        "B": "general gubernator, aporat, ditektiv",
+        "C": "grammatika, bexato, charx",
+        "D": "te’jamkor, xohish, shu’la"
+      }
+    },
+    {
+      "id": 7,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "muxtasar, maddoh, barxam",
+        "B": "oz-ozdan, kamdan kam, lavz",
+        "C": "nanotexnologiya, umumxalq, to’q qizil",
+        "D": "layoqat, talofat, muammo"
+      }
+    },
+    {
+      "id": 8,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini Consider.",
+      "options": {
+        "A": "multemedia, damba-dam, bir narsa",
+        "B": "missiya, rang barang, tomom",
+        "C": "darvoqe, broker, qip-qizil",
+        "D": "videokuzatuv, memuar, taasuf"
+      }
+    },
+    {
+      "id": 9,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlarni aniqlang.",
+      "options": {
+        "A": "vitse-prezident, mavjudot, monand",
+        "B": "kislorot, afsus, qumurstqa",
+        "C": "yildan yilga, mutloqo, nazokat",
+        "D": "jumlayi jahon, sher yurak, yarasha"
+      }
+    },
+    {
+      "id": 10,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "muarix, bahramand, hali-hamon",
+        "B": "nuqtai nazar, raqobat, ne’mat",
+        "C": "darbadar, ganchkor, saodatmant",
+        "D": "drama, tafovut, galaktika"
+      }
+    },
+    {
+      "id": 11,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "mulohaza, radio eshittirish, jaholat",
+        "B": "ultrabinafsha, kinoteatr, ekoturizm",
+        "C": "byudjet, oyma-oy, asqotmoq",
+        "D": "muallaq, ro’baro, memorial"
+      }
+    },
+    {
+      "id": 12,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "biryoqlama, antiilmiy, boshdan oyoq",
+        "B": "shakl shamoyil, mallarang, repititor",
+        "C": "marmar tosh, kamomat, kamchiqim",
+        "D": ") marotaba, saranjon, me’zon"
+      }
+    },
+    {
+      "id": 13,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": ") manzilgoh, hasis, dimoq",
+        "B": "bir necha, masul, fidoiy",
+        "C": "elektrchoynak, kam-ko’stsiz, rangtasvir",
+        "D": "makro-miqdor, hashamat, kamgap"
+      }
+    },
+    {
+      "id": 14,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "manmanlik, tanovvul, masxara",
+        "B": "vaqti vaqtida, hujum, ultraovoz",
+        "C": "uyon-buyon, urug’barg, xoh-noxoh",
+        "D": "madaniy, korupsiya, makkorlik"
+      }
+    },
+    {
+      "id": 15,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "xafv-xatar, karomat, me’moriy",
+        "B": "tomon, kalolloriya, tanovor",
+        "C": "rang ro’y, metalurg, matbuot",
+        "D": "qirqbo’g’im, qirma-qir, santimetr"
+      }
+    },
+    {
+      "id": 16,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "shubha, majnunsifat, mashal",
+        "B": "suvtekin, qirmizi rang, sa’y-harakat",
+        "C": "kam qonlik, hijolat, tadqiqot",
+        "D": "omon-eson, avfnoma, gallaktika"
+      }
+    },
+    {
+      "id": 17,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "tengsherik, tikildi-qoldi, tag-tomir",
+        "B": "binafsharang, mutloqo, birxillik",
+        "C": "imunitet, millatlararo, madatkor",
+        "D": "rangbaranglik, sharxlovchi, karvonsaroy"
+      }
+    }
+  ],
+  "answerKey": {
+    "1": "B",
+    "2": "C",
+    "3": "B",
+    "4": "D",
+    "5": "A",
+    "6": "B",
+    "7": "C",
+    "8": "C",
+    "9": "A",
+    "10": "D",
+    "11": "B",
+    "12": "A",
+    "13": "C",
+    "14": "C",
+    "15": "D",
+    "16": "B",
+    "17": "A"
+  }
+}

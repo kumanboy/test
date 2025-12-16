@@ -1,0 +1,339 @@
+{
+  "id": "test1",
+  "title": "MILLIY SEFR (IMLO TIP-1)",
+  "durationMinutes": 30,
+  "questions": [
+    {
+      "id": 1,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "muayyan, layyoqat",
+        "B": "me’mor, be’mor",
+        "C": "uddaburon, maddoh",
+        "D": "marotaba, faravon"
+      }
+    },
+    {
+      "id": 2,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "mulaqot, inshoat, jaholat",
+        "B": "saxovot, jasorot, mahorat",
+        "C": "asorat, istiqomat, matonat",
+        "D": "nadomat, jarohot, zakovat"
+      }
+    },
+    {
+      "id": 3,
+      "prompt": "Ajratib yoziladigan qo‘shma so‘zlar qatorini toping.",
+      "options": {
+        "A": "bu//qadar, shifo//baxsh",
+        "B": "sotib//oldi, har//kuni",
+        "C": "ko‘z//oynak, tok//qaychi",
+        "D": "jon//kuyar, borib//kelmoq"
+      }
+    },
+    {
+      "id": 4,
+      "prompt": "To‘g‘ri yozilgan so‘zlar qatorini toping.",
+      "options": {
+        "A": "torovat, inshaot",
+        "B": "sanaot, manaviyat",
+        "C": "suxbat, tamon",
+        "D": "isnod, daromad"
+      }
+    },
+    {
+      "id": 5,
+      "prompt": "Qo‘shib yoziladigan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "tim//qora, ikki//kilogramm",
+        "B": "aytib//yubordi, bodom//qovoq",
+        "C": "havo//rang, umum//xalq",
+        "D": "to‘y//tomosha, ishladi//qo‘ydi"
+      }
+    },
+    {
+      "id": 6,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlarni toping.",
+      "options": {
+        "A": "fikirlash, xaloyiq",
+        "B": "bahona, sovodsiz",
+        "C": "hukm, maorif",
+        "D": "qazonchi, uyushiq"
+      }
+    },
+    {
+      "id": 7,
+      "prompt": "Imloviy jihatdan xato yozilgan so‘zlarni toping.",
+      "options": {
+        "A": "qadrdon, zomondosh",
+        "B": "ta’limot, taxsimot",
+        "C": "munofuq, to‘rttala",
+        "D": "xaqiqat, xulosa"
+      }
+    },
+    {
+      "id": 8,
+      "prompt": "Chiziqcha bilan yoziladigan so‘zlar qatorini belgilang.",
+      "options": {
+        "A": "havo//rang, ish//yoqmas",
+        "B": "taklif//qil, Shirmon//buloq",
+        "C": "yilma//yil, o‘yin//kulgi",
+        "D": "veb//sahifa, shu//yoqqa"
+      }
+    },
+    {
+      "id": 9,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlarni toping.",
+      "options": {
+        "A": "munosibat, muvoffiq",
+        "B": "qarong‘i, soviq",
+        "C": "mustahkam, ma’ruza",
+        "D": "paskashlik, loyixa"
+      }
+    },
+    {
+      "id": 10,
+      "prompt": "Chiziqcha bilan yoziladigan so‘zlar qatorini belgilang.",
+      "options": {
+        "A": "yam//yashil, meva//cheva",
+        "B": "ham//maktab, har//narsa",
+        "C": "multi//ilova, olib//kelmoq",
+        "D": "dev//qomat, har//xil"
+      }
+    },
+    {
+      "id": 11,
+      "prompt": "To‘g‘ri yozilgan so‘zlar qatorini toping.",
+      "options": {
+        "A": "taom, tafakkur",
+        "B": "maslaxat, memor",
+        "C": "xavo, qa’tiy",
+        "D": "ishtaxa, etiqod"
+      }
+    },
+    {
+      "id": 12,
+      "prompt": "Qaysi javobda ajratib yoziladigan so‘zlar berilgan?",
+      "options": {
+        "A": "rang//barang, xush//manzara",
+        "B": "erk//talab, tele//tanlov",
+        "C": "adirma//adir, Bo‘z//suv",
+        "D": "taklif//qil, har//vaqt"
+      }
+    },
+    {
+      "id": 13,
+      "prompt": "Qo‘shib yoziladigan so‘zlar qatorini aniqlang.",
+      "options": {
+        "A": "olib//keldi, oy//singari",
+        "B": "mehmon//do‘st, qishin//yozin",
+        "C": "umum//xalq, dev//sifat",
+        "D": "olov//rang, shu//vaqt"
+      }
+    },
+    {
+      "id": 14,
+      "prompt": "Qaysi javobdagi so‘zlar to‘g‘ri yozilgan?",
+      "options": {
+        "A": "muattar, mutoala",
+        "B": "tabiyat, taomil",
+        "C": "joyiz, muommo",
+        "D": "muallim, doira"
+      }
+    },
+    {
+      "id": 15,
+      "prompt": "Imloviy jihatdan xato yozilgan so‘zlarni toping.",
+      "options": {
+        "A": "xaqiqat, hulosa",
+        "B": "qadrdon, zomondosh",
+        "C": "ta’limot, taxsimot",
+        "D": "munofuq, to‘rtala"
+      }
+    },
+    {
+      "id": 16,
+      "prompt": "Chiziqcha bilan yoziladigan so‘zlar qatorini belgilang.",
+      "options": {
+        "A": "umum//jahon, xush//bichim",
+        "B": "adirma//adir, yosh//yalang",
+        "C": "bio//kimyo, to‘q//qizil",
+        "D": "erk//talab, yangidan//yangi"
+      }
+    },
+    {
+      "id": 17,
+      "prompt": "Imloviy jihatdan to‘g‘ri yozilgan so‘zlarni toping.",
+      "options": {
+        "A": "tassavur, inshoat",
+        "B": "dorvoz, ravnag‘",
+        "C": "maxtamoq, minnatdor",
+        "D": "favvora, alohida"
+      }
+    },
+    {
+      "id": 18,
+      "prompt": "Chiziqcha bilan yoziladigan so‘zlar qatorini belgilang.",
+      "options": {
+        "A": "oldinma//keyin, kiyim//kechak",
+        "B": "ko‘k//sulton, kundan//kunga",
+        "C": "oltin//rang, tim//qora",
+        "D": "qizil//ishton, ish//yoqmas"
+      }
+    },
+    {
+      "id": 19,
+      "prompt": "Qaysi javobda ajratib yoziladigan so‘zlar berilgan?",
+      "options": {
+        "A": "xush// fe’l, tog‘ma//tog‘",
+        "B": "ochiqdan//ochiq, liq//to‘la",
+        "C": "orom//baxsh, dil//tortar",
+        "D": "multi//ilova, qo‘y//mijoz"
+      }
+    },
+    {
+      "id": 20,
+      "prompt": "Ajratib yoziladigan qo‘shma so‘zlar qatorini toping.",
+      "options": {
+        "A": "umum//xalq, to‘y//tomosha",
+        "B": "tim//qora, o‘rin//bosar",
+        "C": "borib//keldi, har//nafas",
+        "D": "tabrik//noma, kecha//Kunduz"
+      }
+    },
+    {
+      "id": 21,
+      "prompt": "Qaysi javobdagi so‘zlar imloviy jihatdan xato yozilgan?",
+      "options": {
+        "A": "inshaot, sahovat",
+        "B": "tanaffus, halol",
+        "C": "matbuot, million",
+        "D": "suhbat, tamoyil"
+      }
+    },
+    {
+      "id": 22,
+      "prompt": "To‘g‘ri yozilgan so‘zlar qatorini toping.",
+      "options": {
+        "A": "ehtirom, doim",
+        "B": "xavo, qa’tiy",
+        "C": "ishtaxa, etiqod",
+        "D": "maslaxat, memor"
+      }
+    },
+    {
+      "id": 23,
+      "prompt": "To‘g‘ri yozilgan so‘zlar qatorini toping.",
+      "options": {
+        "A": "horijiy, muvafaqiyat",
+        "B": "ogoh, saxovat",
+        "C": "isnot, extiyot",
+        "D": "xashamat, davir"
+      }
+    },
+    {
+      "id": 24,
+      "prompt": "Ajratib yoziladigan so‘zlarni aniqlang.",
+      "options": {
+        "A": "qabul//xona, viloyatlar//aro",
+        "B": "och//sariq, har//xil",
+        "C": "ko‘z//oynak, kunma//kun",
+        "D": "umum//milliy, shirin//so‘z"
+      }
+    },
+    {
+      "id": 25,
+      "prompt": "To‘g‘ri yozilgan so‘zlar qatorini toping.",
+      "options": {
+        "A": "horijiy, muvafaqiyat",
+        "B": "xashamat, davat",
+        "C": "isnot, extiyot",
+        "D": "xatar, ma’rifat"
+      }
+    },
+    {
+      "id": 26,
+      "prompt": "Qaysi javobda ajratib yoziladigan so‘zlar berilgan?",
+      "options": {
+        "A": "mehmon//xona, omma//bop",
+        "B": "ham//maktab, veb//sahifa",
+        "C": "hech//qachon, jiqqa//ho‘l",
+        "D": "tom//orqa, suv//talab"
+      }
+    },
+    {
+      "id": 27,
+      "prompt": "Qaysi javobdagi so‘zlar to‘g‘ri yozilgan?",
+      "options": {
+        "A": "muallim, doyira",
+        "B": "joyiz, muommo",
+        "C": "muattar, mutoala",
+        "D": "soat, tabiat"
+      }
+    },
+    {
+      "id": 28,
+      "prompt": "Xato yozilgan so‘zlar qatorini toping.",
+      "options": {
+        "A": "sharoit, taraqqiyot",
+        "B": "qanoat, madad",
+        "C": "muovin, maxfiy",
+        "D": "xushmuomila, tushinmoq"
+      }
+    },
+    {
+      "id": 29,
+      "prompt": "Chiziqcha bilan yoziladigan so‘zlar qatorini belgilang.",
+      "options": {
+        "A": "kam//hosil, radio//to‘lqin",
+        "B": "ola//qarg‘a, tamom//bo‘l",
+        "C": "otash//qalb, har//vaqt",
+        "D": "ko‘cha//ko‘y, oyma//oy"
+      }
+    },
+    {
+      "id": 30,
+      "prompt": "Chiziqcha bilan yoziladigan so‘zlar qatorini belgilang.",
+      "options": {
+        "A": "bug‘doy//rang, suv//talab",
+        "B": "tom//orqa, liq//to‘la",
+        "C": "pak//pakana, yilma//yil",
+        "D": "cho‘l//yalpiz, har//xil"
+      }
+    }
+  ],
+  "answerKey": {
+    "1": "C",
+    "2": "C",
+    "3": "B",
+    "4": "D",
+    "5": "C",
+    "6": "C",
+    "7": "C",
+    "8": "C",
+    "9": "C",
+    "10": "A",
+    "11": "A",
+    "12": "D",
+    "13": "C",
+    "14": "D",
+    "15": "A",
+    "16": "B",
+    "17": "D",
+    "18": "A",
+    "19": "B",
+    "20": "C",
+    "21": "A",
+    "22": "A",
+    "23": "B",
+    "24": "B",
+    "25": "D",
+    "26": "C",
+    "27": "D",
+    "28": "D",
+    "29": "D",
+    "30": "C"
+  }
+}
