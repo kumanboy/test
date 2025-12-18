@@ -1,0 +1,141 @@
+{
+  "id": "test3",
+  "title": "TEST 3 (MORFEMIKA 1)",
+  "durationMinutes": 30,
+  "questions": [
+    {
+      "id": 1,
+      "prompt": "Quyidagi gap haqida to‘g‘ri hukmni aniqlang.\nAlbatta, yaxshi ta’lim-tarbiya ong darajasi va rivojini ham belgilaydigan, ya’ni xalq ma’naviyatini shakllantiradigan va boyitadigan muhim omildir.",
+      "options": {
+        "A": "Barcha lug‘aviy shakl yasovchi qo‘shimchalar fe’llar tarkibida qatnashgan.",
+        "B": "Yasama fe’llarning asosi bir xil turkumdagi so‘zlar hisoblanadi.",
+        "C": "Ism va fe’lning lug‘aviy shakl yasovchi qo‘shimchalari qatnashgan.",
+        "D": "Ism va fe’l asoslariga so‘z yasovchi qo‘shimchaning qo‘llanishi kuzatilgan."
+      }
+    },
+    {
+      "id": 2,
+      "prompt": "Quyidagi gapda qatnashgan qo‘shimchalar haqidagi to‘g‘ri hukmni aniqlang.\n“Toshko‘mir bunchalar qop-qora, bunchalar xunuk”, – debdi kesak. “Sirtdan baho berma, uning bag‘ri nihoyatda issiq”, – debdi tosh.",
+      "options": {
+        "A": "Barcha yasama so‘zlar so‘z yasovchi qo‘shimcha orqali yasalgan.",
+        "B": "Ravish yasovchi qo‘shimchalar olmosh asoslariga qo‘shilgan.",
+        "C": "Barcha lug‘aviy shakl yasovchi qo‘shimchalar ismga qo‘shilgan.",
+        "D": "Ismning va fe’lning munosabat shakllari ishtirok etgan."
+      }
+    },
+    {
+      "id": 3,
+      "prompt": "Quyidagi gap haqida xato hukmni aniqlang.\nBiz tariximizni xolisona va haqqoniy baholashimiz, ma’naviy merosimizni boyitishimiz, jahon ilm-fan va ma’naviyatining yuksak cho‘qqisini egallashimiz lozim.",
+      "options": {
+        "A": "Sifat asosiga fe’l yasovchi qo‘shimchaning qo‘llanishi kuzatilgan.",
+        "B": "Barcha fe’l yasovchi qo‘shimchalar bir turkumdagi so‘zlarga qo‘shilgan.",
+        "C": "Barcha lug‘aviy shakl yasovchi qo‘shimchalar fe’llarga qo‘shilgan.",
+        "D": "Sifat asosiga lug‘aviy shakl yasovchi qo‘shimchaning qo‘llanishi kuzatilgan."
+      }
+    },
+    {
+      "id": 4,
+      "prompt": "Quyidagi gapda qatnashgan qo‘shimchalar haqidagi to‘g‘ri hukmni aniqlang.\nOila sog‘lom ekan – jamiyat mustahkam, jamiyat mustahkam ekan – mamlakat barqaror, shu bois eng oliy maqsadimiz ham oila mustahkamligidir.",
+      "options": {
+        "A": "Barcha so‘z yasovchi qo‘shimchalar bir xil turkumdagi so‘zlarni yasashga xizmat qilgan.",
+        "B": "Ismning va fe’lning lug‘aviy shakl yasovchi qo‘shimchasi qatnashgan.",
+        "C": "Ot va sifat asoslariga so‘z yasovchi qo‘shimcha qo‘shilgan.",
+        "D": "Sintaktik shakl yasovchi qo‘shimchalar sifat va ot turkumiga mansub so‘zlarga qo‘shilgan."
+      }
+    },
+    {
+      "id": 5,
+      "prompt": "Quyidagi gap haqida to‘g‘ri hukmni aniqlang.\nOna tiliga muhabbat, uning beqiyos boyligi va buyukligini anglash tuyg‘usi ham bizning ong-u shuurimiz, yuragimizga, avvalo, Navoiy asarlari bilan singadi.",
+      "options": {
+        "A": "Ismning munosabat shakllari faqat bir xil turkumdagi so‘zlarga qo‘shilgan.",
+        "B": "Barcha lug‘aviy shakl yasovchi qo‘shimchalar otlar tarkibida qo‘llangan.",
+        "C": "Barcha yasama so‘zlar ism asosi yasama so‘zlar hisoblanadi.",
+        "D": "Sifat va fe’l asoslariga so‘z yasovchi qo‘shimcha qo‘shilishi orqali ot yasalishi kuzatilgan."
+      }
+    },
+    {
+      "id": 6,
+      "prompt": "Quyidagi gapda alohida ajratib ko‘rsatilgan so‘zning morfem tarkibi haqidagi to‘g‘ri hukmni aniqlang.\nO‘g‘lining qo‘lidagi kitob sahifasidagi rasm e’tiborini tortdi.\nAjratib ko‘rsatilgan so‘z: sahifasidagi",
+      "options": {
+        "A": "Ot asosiga sifat yasovchi qo‘shimcha qo‘shilgan.",
+        "B": "Ismga xos lug‘aviy shakl yasovchi qo‘shimcha qo‘llangan.",
+        "C": "Egalik va kelishik qo‘shimchasi qo‘llangan.",
+        "D": "Ot asosiga ravish yasovchi qo‘shimcha qo‘llangan."
+      }
+    },
+    {
+      "id": 7,
+      "prompt": "Quyidagi gap haqida to‘g‘ri hukmni aniqlang.\nXalq misoli ulug‘ yo‘ldagi ulkan karvondir, karvon uchun bu yo‘l bexatar emas, ammo bu zalvarli kuch, ya’ni ma’naviyat uni har qanday xatardan asrab qoladi.",
+      "options": {
+        "A": "Lug‘aviy shakl yasovchi qo‘shimchalar faqat bir turkumdagi so‘zlarga qo‘shilgan.",
+        "B": "Barcha so‘z yasovchi qo‘shimchalar bir xil turkumdagi asoslarga qo‘shilgan.",
+        "C": "So‘zning so‘zga qo‘shish orqali hosil qilingan fe’l ishtirok etgan.",
+        "D": "Sifat asosiga ot yasovchi qo‘shimchaning qo‘llanishi kuzatilgan."
+      }
+    },
+    {
+      "id": 8,
+      "prompt": "Quyidagi gaplar haqida to‘g‘ri hukmni aniqlang.\n1) Inju qiymati haqida so‘zlash mumkin – so‘z qiymati haqida so‘zlab bo‘lmaydi!\n2) Nodon jangchining nog‘orasiga o‘xshaydi: ovozi baland – ichi bo‘sh.",
+      "options": {
+        "A": "Har ikkala gapdagi so‘z yasovchi qo‘shimchalar bir xil turkumdagi so‘zlarni yasashga xizmat qilgan.",
+        "B": "Har ikkala gapda ham lug‘aviy shakl yasovchi qo‘shimchalar faqat fe’llar tarkibida qo‘llangan.",
+        "C": "Har ikkala gapda ham so‘z yasovchi qo‘shimchalar faqat ismlarni yasashga xizmat qilgan.",
+        "D": "Har ikkala gapda ham ismning va fe’lning munosabat shakllari qatnashgan."
+      }
+    },
+    {
+      "id": 9,
+      "prompt": "Quyidagi gap haqida xato hukmni aniqlang.\nYashash va so‘zlashdir yeyishdan maqsad, yeyish maqsad emas, yeyishdan minba’d.",
+      "options": {
+        "A": "Barcha yasama so‘zlarning asosi bir xil turkum bilan ifodalangan.",
+        "B": "Barcha ismning munosabat shakllari fe’llarga qo‘shilgan.",
+        "C": "So‘zlarning tuzilishiga ko‘ra faqat bir turi qatnashgan.",
+        "D": "Lug‘aviy shakl yasovchi qo‘shimchalarning har xil turi qo‘llangan."
+      }
+    },
+    {
+      "id": 10,
+      "prompt": "Barcha lug‘aviy shakl yasovchi qo‘shimchalar fe’llar tarkibida qo‘llangan javobni aniqlang.",
+      "options": {
+        "A": "Afv so‘ragan gunohkor g‘ururlanib kekkaygan taqvodordan yaxshiroqdir.",
+        "B": "O‘g‘lini erkalab o‘stirmoq xato, Unday inson hayotda ko‘rar ko‘p jafo.",
+        "C": "Zanglagan temirni ming ishlov berib, Ko‘zgu kabi sayqallab, boqib bo‘lmaydi.",
+        "D": "“Toshko‘mir bunchalar qop-qora, bunchalar xunuk”, – debdi kesak."
+      }
+    },
+    {
+      "id": 11,
+      "prompt": "Quyidagi gap haqida to‘g‘ri hukmni aniqlang.\nTilshunos olim “Tillar taraqqiyoti va tanazzuli” maqolasida shunday yozadi: “Tillar ham odamga o‘xshaydi: yonma-yon yashaydi, bir-biriga ta’sir qiladi, o‘zgaradi – rivojlanadi.”",
+      "options": {
+        "A": "Barcha yasama so‘zlar so‘zga qo‘shish orqali hosil qilingan.",
+        "B": "Olmosh asosiga ravish yasovchi qo‘shimcha qo‘shilgan.",
+        "C": "Faqat bir xil tuzilishga ega bo‘lgan yasama so‘zlar ishtirok etgan.",
+        "D": "Sifat va ot asosiga fe’l yasovchi qo‘shimcha qo‘shilgan."
+      }
+    },
+    {
+      "id": 12,
+      "prompt": "Qaysi javobda bir xil morfem tarkibiga ega bo‘lgan so‘zlar ajratib ko‘rsatilgan?",
+      "options": {
+        "A": "Anchadan beri bermay kelayotgan qarzini to‘lattiradi. Ma’yus termilib turgan bolasigа qaradi-da, chelakni qo‘liga berib suv to‘lattirdi.",
+        "B": "Doimo shunaqa: qizni surishtirsang, yo qamalgan bo‘ladi, yo axloqsiz. Shaxmat donalarini surishtirsang, yo yiqiladi, yo yutqazadi.",
+        "C": "Bahsli hudud bo‘lgan ayrim joylar bo‘yicha ikki davlat o‘zaro kelishdi. Uzoq safarga ketgan akalarim kechagi kuni Toshkentga kelishdi",
+        "D": "Suhbat birdan jonlanadi, davraga ajib bir fayz oraladi. Gullар suvdan ancha jonlanadi, g’unchalar ochilib o‘zgacha qiyofaga kirdi."
+      }
+    }
+  ],
+  "answerKey": {
+    "1": "A",
+    "2": "D",
+    "3": "B",
+    "4": "C",
+    "5": "D",
+    "6": "D",
+    "7": "B",
+    "8": "D",
+    "9": "D",
+    "10": "C",
+    "11": "D",
+    "12": "D"
+  }
+}

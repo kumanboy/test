@@ -5,8 +5,10 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const TESTS = [
-    { id: "test1", title: "TEST 1 (IMLO)" },
-    { id: "test2", title: "TEST 2 (IMLO)" },
+    { id: "test1", title: "TEST 1 (IMLO 1)" },
+    { id: "test2", title: "TEST 2 (IMLO 2)" },
+    { id: "test3", title: "TEST 3 (MORFEMIKA 1)" },
+    { id: "test4", title: "TEST 4 (MORFEMIKA 2)" },
 ];
 
 export default function HomePage() {

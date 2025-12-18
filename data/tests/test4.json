@@ -1,0 +1,152 @@
+{
+  "id": "test4",
+  "title": "TEST 4 (MORFEMIKA 2)",
+  "durationMinutes": 30,
+  "questions": [
+    {
+      "id": 1,
+      "prompt": " Tarkibida soʻz yasovchi, sintaktik shakl yasovchi va lugʻaviy shakl yasovchi qoʻshimchalar qatnashgan gapni aniqlang.",
+      "options": {
+        "A": "Bilib boʹlmas, kimda bor imkon, Olagʹovur mashhardir zamon.",
+        "B": "Biror joyda topilsa nogoh gavhar donasi, Choʻntagi teshik har kim daʼvo qilgan hamisha.",
+        "C": "Uni qiziqtirmas sening armoning, Chunki u ovora oʻz gʻami bilan.",
+        "D": "Ko‘p yursang, ko‘p yashaysan, Ko‘p ishlasang, ko‘p oshaysan."
+      }
+    },
+    {
+      "id": 2,
+      "prompt": "Quyida berilgan gap haqida xato ma’lumot berilgan javobni aniqlang.\n\nYomon so‘z tinglovchining ko‘nglini xira qiladi, xalqimiz befoyda so‘zlash haqida shunday deydi: “Og‘ziga kelganni demoq – nodonning ishi, oldiga kelganni yemoq – hayvonning ishi”.",
+      "options": {
+        "A": "otdan sifat yasalgan.",
+        "B": "olmoshdan ravish yasalgan.",
+        "C": "fe’ldan ot yasalgan.",
+        "D": "otdan fe’l yasalgan."
+      }
+    },
+    {
+      "id": 3,
+      "prompt": "Qaysi gapdagi nuqtalar o‘rniga so‘z yasovchi, lug‘aviy shakl yasovchi va sintaktik shakl yasovchi qo‘shimchalar mos keladi?",
+      "options": {
+        "A": "Sizni eshit..k, aqlimizga aql qo‘shiladi, ona... so‘z... yvering.",
+        "B": "Ko‘p o‘qi... odam ko‘p biladi, sen buni aslo yoq...dan chiqar...",
+        "C": "Boy...ing ko‘p bo‘l...sa ham, bil...ing ko‘p bo‘lsin.",
+        "D": "Yalqov... muhtojliklar... boshlanishi..."
+      }
+    },
+    {
+      "id": 4,
+      "prompt": "Quyidagi qaysi raqamda berilgan so‘zga so‘z yasovchi qo‘shimcha qo‘shilishi lozim?\n\nBu yer…ga(1) suv chiq…sak(2), suv…gan(3) ekinlarga jon baxsh etgan bo’lamiz, vodiy yanada yashna…(4) ketadi",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      }
+    },
+    {
+      "id": 5,
+      "prompt": "Qaysi gapda qatnashgan –siz qo‘shimchasi salbiy bo‘yoqdagi sifatni yasashga xizmat qilgan?",
+      "options": {
+        "A": "Yigitlarning axloqsiz qiliqlariga chiday olmagan Malohat tezda o‘rnidan turdi-da, olis bog‘ sari yo‘lga tushdi.",
+        "B": "“Bolali uy – bozor, bolasiz uy – mozor”, – deydi bobolarimiz.",
+        "C": "Qo‘shnilarining bu gapi Malika opani es-hushidan ayirdi, devorga majolsiz suyanib qoldi.",
+        "D": "U nimalar haqidadir tinimsiz gapirar, gapni gapga ulab yuborar edi."
+      }
+    },
+    {
+      "id": 6,
+      "prompt": "Qaysi gapda nuqtalar o‘rnida so‘z yasovchi, lug‘aviy shakl yasovchi va sintaktik shakl yasovchi qo‘shimchalar qo‘llanadi?",
+      "options": {
+        "A": "Vatan ravnaq... yo‘lida xizmat qil... barchamizning sharafli burchimiz...",
+        "B": "Ta’lim tiz...ining barcha bog‘in...i o‘zaro hamjihatlik bilan ishla...i kerak.",
+        "C": "Boy...ing bo‘lma... ham, do‘stlaring ko‘p bo‘lsin, ular kulfatda madad… bo‘lishadi.",
+        "D": "Sohada sifat ko‘rsat… lariing o‘sib bora...i ijobiy o‘zgarishlardan dalolat ber."
+      }
+    },
+    {
+      "id": 7,
+      "prompt": "Quyida berilgan gap haqida to‘g‘ri ma’lumot berilgan javobni aniqlang.\n\nBularning barchasi ma’naviy qadriyatlarimiz, urf-odatlarimiz va an’analarimizdan oziqlangan iqtisodiy taraqqiyot yo‘limiz jamiyatning hayotiga ijobiy ta’sir ko‘rsatayotganining yorqin ifodasidir.",
+      "options": {
+        "A": "Parchada so‘zlarning tuzilishiga ko‘ra faqat bir turi qatnashgan.",
+        "B": "Parchadagi barcha sodda yasama so‘zlarning asosi bir xil turkum bilan ifodalangan.",
+        "C": "Parchada so‘z yasovchi, sintaktik shakl yasovchi va lug‘aviy shakl yasovchi qo‘shimchalar qatnashgan.",
+        "D": "Parchadagi barcha yasama so‘zlar bir xil turkum bilan ifodalangan."
+      }
+    },
+    {
+      "id": 8,
+      "prompt": "Qaysi gapda nuqtalar o‘rnida so‘z yasovchi, lug‘aviy shakl yasovchi va sintaktik shakl yasovchi qo‘shimcha qo‘llaniladi?",
+      "options": {
+        "A": "Bog‘dan yumsho... namxush xazon hidi ko‘tar...ib, uning xayollarini to‘lin oy olib ket... edi.",
+        "B": "Badiiy asar shun... daraxtki, uning shoxida umumbashariy mevalar yet...adi, ildizi esa milliy zamin... yotadi.",
+        "C": "Erta bahor... daraxt ekish, yerlarni yumsha...ish eng yaxshi odatimiz...",
+        "D": "Yoz... turmushni har tomonlama o‘rganish, buning uchun uning hamma sohalari... xabar... bo‘lishi kerak."
+      }
+    },
+    {
+      "id": 9,
+      "prompt": "Ushbu gapda qatnashgan sodda yasama so‘zlar haqidagi xato ma’lumotni aniqlang.\n\n Qissada qahramonning tilidan sanab o‘tilgan ta’kildarlardan tashqari yana ikki voqea ham keltiriladi, bular izlanishlar-u tadqiqotlar bilan javobi topiladigan jumboqlar emas.",
+      "options": {
+        "A": "Barcha sodda yasama so‘zlar bir xil turkumga tegishli.",
+        "B": "Barcha sodda so‘zlarning asosi bir xil turkum bilan ifodalangan.",
+        "C": "Sodda yasama so‘zlardan birining asosi shakldoshlik xususiyatiga ega.",
+        "D": "Sodda yasama so‘zlarning birida sintaktik shakl yasovchi qo‘shimcha qatnashgan."
+      }
+    },
+    {
+      "id": 10,
+      "prompt": "Ushbu gapda qanday turdagi qo‘shimcha qatnashmagan?\n\nMamlakatimizning turli viloyatlarida yashayotgan, o‘z mehnati bilan yurt ravnaqiga hissa qo‘shayotgan yoshlarimizga eʼtibor berish, ularni har jihatdan qo‘llab-quvvatlash bugungi kunning dolzarb masalasi sifatida eʼtirof etildi.",
+      "options": {
+        "A": "sifat yasovchi qo‘shimcha",
+        "B": "ismning munosabat shakli qo‘shimchasi",
+        "C": "fe’llarning munosabat shakli qo‘shimchasi",
+        "D": "ot yasovchi qo‘shimcha"
+      }
+    },
+    {
+      "id": 11,
+      "prompt": "Qaysi gapdagi ko‘p nuqtalar o‘rnida faqat fe’l yasovchi qo‘shimchalar tushirib qoldirilgan?",
+      "options": {
+        "A": "Mening hayot haqidagi falsafam o‘zga...di: avvallari yeyish uchun hayot kechirgan bo‘lsam, endi yash... sh uchun taom...aman.",
+        "B": "Soch-soqolli kumushdek oq...gan cholning gaplari haq edi: bir...gan daryo bo‘lur, tarqa...gan irmoq bo‘lur.",
+        "C": "Holbuki, bu dunyoda chinakam qayg‘u... ishga arzi... bitta yo‘q... ish bor.",
+        "D": "Bobodehqonning oftobdan qora...gan, tol...qan qo‘llariga darmon bo‘ling."
+      }
+    },
+    {
+      "id": 12,
+      "prompt": "Qaysi raqamdagi gaplarda so‘z yasovchi, sintaktik shakl yasovchi va lug‘aviy shakl yasovchi qo‘shimchalar qatnashgan?\n1. U beg’ubor  yaylov havosida ulg‘aygan kamgap va qaysargina bir bola edi.\n2. Keksa bog‘bonni hamma o‘quvchilar hurmat qilishadi.\n3. O‘sha kuni yigit do‘kondagi barcha atirgullarni sotib oldi.\n4.Hunarmarnd yigit o’z kasbini, uyini, oilasini juda qadrlar ekan.\n5. Rejadagi zarur ishlarni amalga oshirishga vaqt yetkaza olmayapman.\n6.U ot tagiga  to’kilgan bedalarni bir quchoq qilib supurib olib keldi",
+      "options": {
+        "A": "1, 2, 6",
+        "B": "2, 4, 5",
+        "C": "1, 2, 5",
+        "D": "3, 4, 6"
+      }
+    },
+    {
+      "id": 13,
+      "prompt": "Quyidagi gapda tushirib qoldirilgan qo‘shimchalar haqida berilgan to‘g‘ri javobni aniqlang.\n\nHayot – ulug‘ ne’mat, bu ne’mat… o‘z vaqti… to‘g‘ri foydalana olishimiz, ya’ni kuch-g‘ayratimizni ezgu ishlarga bunyodkorlikka sarflashimiz lozim.",
+      "options": {
+        "A": "chiqish va jo‘nalish kelishigi",
+        "B": "chiqish va o‘rin-payt kelishigi",
+        "C": "qaratqich va o‘rin-payt kelishigi",
+        "D": "tushum va o‘rin-payt kelishigi"
+      }
+    }
+  ],
+  "answerKey": {
+    "1": "B",
+    "2": "B",
+    "3": "C",
+    "4": "C",
+    "5": "A",
+    "6": "D",
+    "7": "C",
+    "8": "A",
+    "9": "A",
+    "10": "D",
+    "11": "A",
+    "12": "A",
+    "13": "B"
+  }
+}

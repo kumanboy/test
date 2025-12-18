@@ -264,7 +264,10 @@ export default function QuizClient({ test }: Props) {
                 </p>
 
                 <div className="mt-4 rounded-2xl border p-5">
-                    <div className="text-base font-medium text-black">{question.prompt}</div>
+                    <div className="text-base font-medium text-black whitespace-pre-line">
+                        {question.prompt}
+                    </div>
+
 
                     <div className="mt-4 space-y-3">
                         {(["A", "B", "C", "D"] as const).map((key) => {
